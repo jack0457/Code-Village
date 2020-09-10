@@ -1,0 +1,60 @@
+//////　共通 ///////
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 10px;
+}
+
+.inner {
+    margin: 0 auto;
+    padding: 260px 0 70px;
+    width: 100%-8.3%*2;
+    @media screen and (max-width: 959px) {
+        padding: 60px 0;
+        }
+}    
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+    font-family: Roboto;
+    color: #707070;
+    letter-spacing: 0.6rem;
+    line-height: 24px;
+    margin-bottom: 11px;
+    &:after {
+        display: block;
+        content: "";
+        width: 10rem;
+        border-bottom: 1px solid;
+        margin-bottom: 12px;
+        margin-left: 17px;
+        color: black;
+    }
+}
+
+
+
+////// mixin ////////
+
+@mixin pc {
+    @media screen and (min-width: 960px){
+        @content;
+    }
+}
+
+@mixin tab {
+    @media screen and (max-width: 959px){
+        @content;
+    }
+}
+
+@mixin sp {
+    @media screen and (max-width: 650px){
+        @content;
+    }
+}

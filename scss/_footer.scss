@@ -1,0 +1,73 @@
+footer {
+    position: relative;
+    @include sp {
+        height: 400px;
+    }
+}
+
+.line {
+    width: 84%;
+    border-top: 1px solid whitesmoke;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+
+.ft {
+    display: flex;
+    justify-content: space-between;
+    &__title {
+        font-size: 3.2rem;
+        font-family: Roboto Mono for Powerline;
+        color: #7070704D;
+        letter-spacing: 5px;
+        @include sp {
+            font-size: 1.8rem;
+            position: absolute;
+            top: 90%;
+        }
+    }
+    @include sp {
+        flex-direction: column-reverse;
+    }
+    &__re {
+        font-size: 1.8rem;
+        font-family: Roboto Mono for Powerline;
+        color: #707070;
+        padding: 10px 41px 9px 41px;
+        border: 1px solid #707070;
+        letter-spacing: 5px;
+        @include tab {
+            position: absolute;
+            top: 65%;
+            left: 31%;
+        }
+    }
+
+}
+
+.itag {
+    display: flex;
+}
+
+.fa-twitter {
+    font-size: 1.9rem;
+    margin-top: 2.5px;
+    margin-left: 18px;
+    @include sp {
+        position: absolute;
+        top: 90%;
+        left: 81%;
+    }
+}
+
+.fa-facebook-square {
+    font-size: 1.9rem;
+    margin-top: 2.5px;
+    margin-left: 8px;
+    @include sp {
+        position: absolute;
+        top: 90%;
+        left: 88%;
+    }
+}

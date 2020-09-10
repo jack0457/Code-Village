@@ -1,0 +1,490 @@
+@charset "UTF-8";
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav, ul, li {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+a:visited {
+  color: inherti; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/*# sourceMappingURL=reset.css.map */
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 10px; }
+
+.inner {
+  margin: 0 auto;
+  padding: 260px 0 70px;
+  width: 83.4%; }
+  @media screen and (max-width: 959px) {
+    .inner {
+      padding: 60px 0; } }
+
+.title {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.8rem;
+  font-family: Roboto;
+  color: #707070;
+  letter-spacing: 0.6rem;
+  line-height: 24px;
+  margin-bottom: 11px; }
+  .title:after {
+    display: block;
+    content: "";
+    width: 10rem;
+    border-bottom: 1px solid;
+    margin-bottom: 12px;
+    margin-left: 17px;
+    color: black; }
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  padding: 68px 0 0 77px; }
+  @media screen and (min-width: 960px) {
+    header {
+      position: absolute;
+      z-index: 10; } }
+  @media screen and (max-width: 959px) {
+    header {
+      justify-content: space-between;
+      padding: 24px 21px;
+      display: flex; } }
+
+.hd-logo {
+  font-size: 3.8rem; }
+  @media screen and (max-width: 650px) {
+    .hd-logo {
+      font-size: 2.2rem; } }
+
+@media screen and (max-width: 959px) {
+  nav {
+    display: none; } }
+nav ul {
+  display: flex; }
+  nav ul li {
+    font-size: 1.8rem;
+    color: #707070;
+    margin-left: 20px; }
+    nav ul li:first-child {
+      color: black;
+      display: inline-block;
+      position: relative; }
+    nav ul li:first-child:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -10%;
+      display: inline-block;
+      width: 42px;
+      height: 1px;
+      transform: translate(-60%);
+      background-color: black; }
+
+.ham {
+  display: none; }
+  @media screen and (max-width: 959px) {
+    .ham {
+      width: 16px;
+      height: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .ham span {
+        display: inline-block;
+        width: 100%;
+        height: 2px;
+        background-color: #384043; }
+        .ham span:last-child {
+          width: 60%;
+          background-color: #384043; } }
+
+.frist-v {
+  display: flex; }
+  .frist-v__font {
+    height: 100vh;
+    width: 46%;
+    position: relative; }
+    @media screen and (max-width: 959px) {
+      .frist-v__font {
+        width: 100%;
+        z-index: 10; } }
+  .frist-v__img {
+    height: 100vh;
+    width: 56%;
+    background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
+    background-size: cover; }
+    @media screen and (max-width: 959px) {
+      .frist-v__img {
+        width: 100%;
+        position: absolute; } }
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 20%;
+  transform: translate(-50%, -50%); }
+  @media screen and (max-width: 959px) {
+    .wrap {
+      flex-direction: column-reverse;
+      color: white; } }
+  .wrap__jp {
+    font-size: 3.8rem;
+    font-family: ヒラギノ明朝 Pro;
+    padding-left: 20px; }
+    @media screen and (max-width: 959px) {
+      .wrap__jp {
+        font-size: 2.3rem; } }
+  .wrap__eg {
+    font-size: 3.8rem;
+    font-family: "Zapfino,Regular"; }
+    @media screen and (max-width: 959px) {
+      .wrap__eg {
+        font-size: 2.8rem; } }
+
+.content {
+  background: linear-gradient(to bottom, #A193861F 0%, #A193861F 40%, #A1938689 40%, #A1938689 100%);
+  height: 960px; }
+  @media screen and (max-width: 959px) {
+    .content {
+      background: linear-gradient(to bottom, #A193861F 0%, #A193861F 30%, #A1938689 30%, #A1938689 100%);
+      height: 700px; } }
+
+.ct-img {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 5%; }
+  @media screen and (max-width: 959px) {
+    .ct-img {
+      margin: 50px 0;
+      height: 40vh; } }
+  .ct-img__box1 {
+    width: 63%; }
+    @media screen and (max-width: 650px) {
+      .ct-img__box1 {
+        width: 49%; } }
+  .ct-img__box2 {
+    width: 36%; }
+    @media screen and (max-width: 650px) {
+      .ct-img__box2 {
+        width: 49%; } }
+
+.ct-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding: 0 6%; }
+  @media screen and (max-width: 959px) {
+    .ct-bottom {
+      flex-direction: column; } }
+  .ct-bottom__message {
+    font-size: 4.0rem;
+    font-family: ヒラギノ明朝 Pro;
+    width: 60%;
+    letter-spacing: 15px; }
+    @media screen and (max-width: 959px) {
+      .ct-bottom__message {
+        font-size: 1.8rem;
+        letter-spacing: 5px;
+        margin-bottom: 16px;
+        width: 60%; } }
+  .ct-bottom__message2 {
+    font-size: 1.6rem;
+    font-family: ヒラギノ角ゴ Pro;
+    width: 45%;
+    letter-spacing: 5px; }
+    @media screen and (max-width: 959px) {
+      .ct-bottom__message2 {
+        font-size: 1.6rem;
+        width: 80%; } }
+
+.th-menu__three {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+  @media screen and (max-width: 650px) {
+    .th-menu__three {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px; } }
+
+.icon {
+  width: 25%;
+  text-align: center; }
+  .icon__item {
+    width: 100%;
+    margin-bottom: 10%; }
+  .icon__name {
+    font-size: 3.0rem;
+    font-family: Roboto Mono for Powerline;
+    letter-spacing: 2px;
+    margin-bottom: 10%; }
+    @media screen and (max-width: 650px) {
+      .icon__name {
+        text-align: left; } }
+  .icon__text {
+    font-size: 1.6rem;
+    font-family: Roboto Mono for Powerline;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-bottom: 10%;
+    line-height: 1.5; }
+    @media screen and (max-width: 650px) {
+      .icon__text {
+        line-height: 1.9; } }
+  .icon__en {
+    font-size: 1.6rem;
+    font-family: Roboto Mono for Powerline;
+    text-align: right; }
+  @media screen and (max-width: 650px) {
+    .icon {
+      width: 100%;
+      margin-bottom: 63px; }
+      .icon__img {
+        width: 100%; } }
+
+.access {
+  background-color: #A193861F; }
+  @media screen and (min-width: 960px) {
+    .access {
+      padding: 260px 0 70px; } }
+  @media screen and (max-width: 650px) {
+    .access {
+      padding-bottom: 70px; } }
+  .access__wrap {
+    display: flex;
+    justify-content: space-between; }
+    @media screen and (max-width: 650px) {
+      .access__wrap {
+        flex-direction: column-reverse;
+        text-align: center; } }
+  .access__a1 {
+    font-size: 2.4rem;
+    font-family: Bold;
+    color: #00000038;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    letter-spacing: 5px; }
+    @media screen and (max-width: 650px) {
+      .access__a1 {
+        position: absolute;
+        top: 15%;
+        left: 7.5%; } }
+  .access__a2 {
+    height: 120px;
+    line-height: 30px;
+    position: absolute;
+    top: 40%;
+    left: 20%; }
+    @media screen and (max-width: 650px) {
+      .access__a2 {
+        position: absolute;
+        top: 30%;
+        left: 7.5%; } }
+  .access__a3 {
+    font-size: 1.6rem;
+    font-family: Roboto Mono for Powerline;
+    color: white;
+    letter-spacing: 5px; }
+    @media screen and (max-width: 650px) {
+      .access__a3 {
+        display: flex;
+        justify-content: space-between;
+        line-height: 40px; } }
+  .access__table {
+    height: 400px;
+    width: 40%;
+    background-color: #D0C5BA;
+    position: relative; }
+    @media screen and (max-width: 650px) {
+      .access__table {
+        width: 100%;
+        height: 280px; } }
+  .access__map {
+    width: 60%; }
+    @media screen and (max-width: 650px) {
+      .access__map {
+        width: 100%; } }
+  .access__map1 {
+    width: 100%;
+    height: 400px; }
+
+.th {
+  width: 80%;
+  margin-left: 8%; }
+  @media screen and (max-width: 650px) {
+    .th {
+      padding-top: 60px;
+      margin: 60px 0; } }
+
+footer {
+  position: relative; }
+  @media screen and (max-width: 650px) {
+    footer {
+      height: 400px; } }
+
+.line {
+  width: 84%;
+  border-top: 1px solid whitesmoke;
+  position: absolute;
+  top: 40%;
+  left: 8%; }
+
+.ft {
+  display: flex;
+  justify-content: space-between; }
+  .ft__title {
+    font-size: 3.2rem;
+    font-family: Roboto Mono for Powerline;
+    color: #7070704D;
+    letter-spacing: 5px; }
+    @media screen and (max-width: 650px) {
+      .ft__title {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 90%; } }
+  @media screen and (max-width: 650px) {
+    .ft {
+      flex-direction: column-reverse; } }
+  .ft__re {
+    font-size: 1.8rem;
+    font-family: Roboto Mono for Powerline;
+    color: #707070;
+    padding: 10px 41px 9px 41px;
+    border: 1px solid #707070;
+    letter-spacing: 5px; }
+    @media screen and (max-width: 959px) {
+      .ft__re {
+        position: absolute;
+        top: 65%;
+        left: 31%; } }
+
+.itag {
+  display: flex; }
+
+.fa-twitter {
+  font-size: 1.9rem;
+  margin-top: 2.5px;
+  margin-left: 18px; }
+  @media screen and (max-width: 650px) {
+    .fa-twitter {
+      position: absolute;
+      top: 90%;
+      left: 81%; } }
+
+.fa-facebook-square {
+  font-size: 1.9rem;
+  margin-top: 2.5px;
+  margin-left: 8px; }
+  @media screen and (max-width: 650px) {
+    .fa-facebook-square {
+      position: absolute;
+      top: 90%;
+      left: 88%; } }
+
+/*# sourceMappingURL=main.css.map */

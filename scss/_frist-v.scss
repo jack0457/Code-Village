@@ -1,0 +1,54 @@
+.frist-v {
+    display: flex;
+    &__font {
+        height: 100vh;
+        width: 46%;
+        position: relative;
+        @include tab {
+            width: 100%;
+            z-index: 10;
+        }
+    }
+    &__img {
+        height: 100vh;
+        width: 56%;
+        background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
+        background-size: cover;
+        @include tab {
+            width: 100%;
+            position: absolute;
+        }
+    }
+}
+
+.wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    transform: translate(-50%,-50%);
+    @include tab {
+        flex-direction: column-reverse;
+        color: white;
+    }
+    &__jp {
+        font-size: 3.8rem;
+        font-family: ヒラギノ明朝 Pro;
+        padding-left: 20px;
+        @include tab {
+            font-size: 2.3rem;
+        }
+    }
+    &__eg {
+        font-size: 3.8rem;
+        font-family: "Zapfino,Regular";
+        @include tab {
+            font-size: 2.8rem;
+        }
+    }
+}
