@@ -146,7 +146,8 @@ header {
       display: flex; } }
 
 .hd-logo {
-  font-size: 3.8rem; }
+  font-size: 3.8rem;
+  letter-spacing: 5px; }
   @media screen and (max-width: 650px) {
     .hd-logo {
       font-size: 2.2rem; } }
@@ -159,7 +160,8 @@ nav ul {
   nav ul li {
     font-size: 1.8rem;
     color: #707070;
-    margin-left: 20px; }
+    margin-left: 20px;
+    letter-spacing: 3.5px; }
     nav ul li:first-child {
       color: black;
       display: inline-block;
@@ -170,9 +172,9 @@ nav ul {
       left: 50%;
       bottom: -10%;
       display: inline-block;
-      width: 42px;
+      width: 52px;
       height: 1px;
-      transform: translate(-60%);
+      transform: translate(-65%);
       background-color: black; }
 
 .ham {
@@ -194,9 +196,9 @@ nav ul {
           background-color: #384043; } }
 
 .frist-v {
-  display: flex; }
+  display: flex;
+  height: 100vh; }
   .frist-v__font {
-    height: 100vh;
     width: 46%;
     position: relative; }
     @media screen and (max-width: 959px) {
@@ -204,10 +206,10 @@ nav ul {
         width: 100%;
         z-index: 10; } }
   .frist-v__img {
-    height: 100vh;
-    width: 56%;
+    width: 54%;
     background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
-    background-size: cover; }
+    background-size: 90% 100%;
+    background-repeat: no-repeat; }
     @media screen and (max-width: 959px) {
       .frist-v__img {
         width: 100%;
@@ -230,14 +232,15 @@ nav ul {
       color: white; } }
   .wrap__jp {
     font-size: 3.8rem;
-    font-family: ヒラギノ明朝 Pro;
-    padding-left: 20px; }
+    font-family: 游明朝;
+    padding-left: 20px;
+    letter-spacing: 1; }
     @media screen and (max-width: 959px) {
       .wrap__jp {
         font-size: 2.3rem; } }
   .wrap__eg {
     font-size: 3.8rem;
-    font-family: "Zapfino,Regular"; }
+    font-family: Cambria, serif; }
     @media screen and (max-width: 959px) {
       .wrap__eg {
         font-size: 2.8rem; } }
@@ -283,7 +286,7 @@ nav ul {
       flex-direction: column; } }
   .ct-bottom__message {
     font-size: 4.0rem;
-    font-family: ヒラギノ明朝 Pro;
+    font-family: 游明朝;
     width: 60%;
     letter-spacing: 15px; }
     @media screen and (max-width: 959px) {
@@ -294,7 +297,7 @@ nav ul {
         width: 60%; } }
   .ct-bottom__message2 {
     font-size: 1.6rem;
-    font-family: ヒラギノ角ゴ Pro;
+    font-family: ヒラギノ角ゴシック;
     width: 45%;
     letter-spacing: 5px; }
     @media screen and (max-width: 959px) {

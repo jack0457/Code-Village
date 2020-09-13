@@ -1,7 +1,7 @@
 .frist-v {
     display: flex;
+    height: 100vh;
     &__font {
-        height: 100vh;
         width: 46%;
         position: relative;
         @include tab {
@@ -10,10 +10,10 @@
         }
     }
     &__img {
-        height: 100vh;
-        width: 56%;
+        width: 54%;
         background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
-        background-size: cover;
+        background-size: 90% 100%;
+        background-repeat: no-repeat;
         @include tab {
             width: 100%;
             position: absolute;
@@ -38,15 +38,16 @@
     }
     &__jp {
         font-size: 3.8rem;
-        font-family: ヒラギノ明朝 Pro;
+        font-family: 游明朝;
         padding-left: 20px;
+        letter-spacing: 1;
         @include tab {
             font-size: 2.3rem;
         }
     }
     &__eg {
         font-size: 3.8rem;
-        font-family: "Zapfino,Regular";
+        font-family: Cambria, serif;
         @include tab {
             font-size: 2.8rem;
         }

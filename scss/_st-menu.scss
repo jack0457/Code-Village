@@ -43,7 +43,7 @@
     }
     &__message {
         font-size: 4.0rem;
-        font-family: ヒラギノ明朝 Pro;
+        font-family: 游明朝;
         width: 60%;
         letter-spacing: 15px;
         @include tab {
@@ -55,7 +55,7 @@
     }
     &__message2 {
         font-size: 1.6rem;
-        font-family: ヒラギノ角ゴ Pro;
+        font-family: ヒラギノ角ゴシック;
         width: 45%;
         letter-spacing: 5px;
         @include tab {
