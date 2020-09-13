@@ -208,7 +208,7 @@ nav ul {
   .frist-v__img {
     width: 54%;
     background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
-    background-size: 90% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat; }
     @media screen and (max-width: 959px) {
       .frist-v__img {
