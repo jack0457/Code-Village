@@ -428,12 +428,12 @@ nav ul {
     height: 400px; }
 
 .th {
-  width: 80%;
-  margin-left: 8%; }
+  width: 83.4%;
+  margin: 0 auto; }
   @media screen and (max-width: 650px) {
     .th {
       padding-top: 60px;
-      margin: 60px 0; } }
+      margin: 60px auto; } }
 
 footer {
   position: relative; }
