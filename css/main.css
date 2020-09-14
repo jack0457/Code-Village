@@ -241,7 +241,7 @@ nav ul {
         font-size: 2.3rem; } }
   .wrap__eg {
     font-size: 3.8rem;
-    font-size: Zapfino; }
+    font-size: Zapfino,sans-serif; }
     @media screen and (max-width: 959px) {
       .wrap__eg {
         font-size: 2.8rem; } }
@@ -443,7 +443,7 @@ footer {
 
 .line {
   width: 84%;
-  border-top: 1px solid whitesmoke;
+  border-top: 1px solid #70707036;
   position: absolute;
   top: 40%;
   left: 8%; }
