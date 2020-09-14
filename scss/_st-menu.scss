@@ -44,7 +44,7 @@
     &__message {
         font-size: 4.0rem;
         font-family: 游明朝;
-        width: 60%;
+        width: 50%;
         letter-spacing: 15px;
         @include tab {
             font-size: 1.8rem;
@@ -56,11 +56,15 @@
     &__message2 {
         font-size: 1.6rem;
         font-family: ヒラギノ角ゴシック;
-        width: 45%;
-        letter-spacing: 5px;
+        width: 50%;
+        height: 130px;
+        letter-spacing: 4px;
+        line-height: 26px;
+        overflow: hidden;
         @include tab {
             font-size: 1.6rem;
             width: 80%;
+            height: 211px;
         }
     }
 }

@@ -32,7 +32,7 @@
     &__text {
         font-size: 1.6rem;
         font-family: Roboto Mono for Powerline;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         text-align: left;
         margin-bottom: 10%;
         line-height: 1.5;
@@ -44,6 +44,9 @@
         font-size: 1.6rem;
         font-family: Roboto Mono for Powerline;
         text-align: right;   
+    }
+    &__co {
+        padding: 0 10px;
     }
     @include sp {
         width: 100%;

@@ -213,7 +213,8 @@ nav ul {
     @media screen and (max-width: 959px) {
       .frist-v__img {
         width: 100%;
-        position: absolute; } }
+        position: absolute;
+        height: 100vh; } }
 
 .wrap {
   position: absolute;
@@ -287,7 +288,7 @@ nav ul {
   .ct-bottom__message {
     font-size: 4.0rem;
     font-family: 游明朝;
-    width: 60%;
+    width: 50%;
     letter-spacing: 15px; }
     @media screen and (max-width: 959px) {
       .ct-bottom__message {
@@ -298,12 +299,16 @@ nav ul {
   .ct-bottom__message2 {
     font-size: 1.6rem;
     font-family: ヒラギノ角ゴシック;
-    width: 45%;
-    letter-spacing: 5px; }
+    width: 50%;
+    height: 130px;
+    letter-spacing: 4px;
+    line-height: 26px;
+    overflow: hidden; }
     @media screen and (max-width: 959px) {
       .ct-bottom__message2 {
         font-size: 1.6rem;
-        width: 80%; } }
+        width: 80%;
+        height: 211px; } }
 
 .th-menu__three {
   display: flex;
@@ -332,7 +337,7 @@ nav ul {
   .icon__text {
     font-size: 1.6rem;
     font-family: Roboto Mono for Powerline;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-align: left;
     margin-bottom: 10%;
     line-height: 1.5; }
@@ -343,6 +348,8 @@ nav ul {
     font-size: 1.6rem;
     font-family: Roboto Mono for Powerline;
     text-align: right; }
+  .icon__co {
+    padding: 0 10px; }
   @media screen and (max-width: 650px) {
     .icon {
       width: 100%;
