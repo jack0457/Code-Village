@@ -268,7 +268,10 @@ nav ul {
     width: 63%; }
     @media screen and (max-width: 650px) {
       .ct-img__box1 {
-        width: 49%; } }
+        width: 49%;
+        height: 40vh;
+        object-fit: cover;
+        object-position: right; } }
   .ct-img__box2 {
     width: 36%; }
     @media screen and (max-width: 650px) {

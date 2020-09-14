@@ -21,6 +21,9 @@
     width: 63%;
     @include sp {
         width: 49%;
+        height: 40vh;
+        object-fit: cover;
+        object-position: right;
     }
     }
 &__box2 {
