@@ -207,9 +207,9 @@ nav ul {
         z-index: 10; } }
   .frist-v__img {
     width: 54%;
+    height: 100vh;
     background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat; }
+    background-size: cover; }
     @media screen and (max-width: 959px) {
       .frist-v__img {
         width: 100%;
@@ -241,7 +241,7 @@ nav ul {
         font-size: 2.3rem; } }
   .wrap__eg {
     font-size: 3.8rem;
-    font-family: Cambria, serif; }
+    font-family: "Zapfino","Regular"; }
     @media screen and (max-width: 959px) {
       .wrap__eg {
         font-size: 2.8rem; } }
