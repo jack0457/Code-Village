@@ -287,7 +287,8 @@ nav ul {
   padding: 0 6%; }
   @media screen and (max-width: 959px) {
     .ct-bottom {
-      flex-direction: column; } }
+      flex-direction: column;
+      margin: 0 auto; } }
   .ct-bottom__message {
     font-size: 4.0rem;
     font-family: 游明朝;
@@ -297,8 +298,8 @@ nav ul {
       .ct-bottom__message {
         font-size: 1.8rem;
         letter-spacing: 5px;
-        margin-bottom: 16px;
-        width: 60%; } }
+        margin: 0 auto 16px;
+        width: 200px; } }
   .ct-bottom__message2 {
     font-size: 1.6rem;
     font-family: ヒラギノ角ゴシック;
@@ -436,68 +437,63 @@ nav ul {
       margin: 60px auto; } }
 
 footer {
-  position: relative; }
-  @media screen and (max-width: 650px) {
+  width: 83%;
+  padding: 160px 0 60px;
+  margin: 0 auto; }
+  @media screen and (max-width: 959px) {
     footer {
-      height: 400px; } }
+      padding: 60px 21px 20px;
+      width: 90%; } }
 
 .line {
-  width: 84%;
-  border-top: 1px solid #70707036;
-  position: absolute;
-  top: 40%;
-  left: 8%; }
+  width: 100%;
+  margin-bottom: 83px;
+  border-top: 1px solid #70707036; }
+  @media screen and (max-width: 650px) {
+    .line {
+      margin-bottom: 60px; } }
 
 .ft {
   display: flex;
-  justify-content: space-between; }
-  .ft__title {
-    font-size: 3.2rem;
-    font-family: Roboto Mono for Powerline;
-    color: #7070704D;
-    letter-spacing: 5px; }
-    @media screen and (max-width: 650px) {
-      .ft__title {
-        font-size: 1.8rem;
-        position: absolute;
-        top: 90%; } }
+  justify-content: space-between;
+  height: 40px; }
   @media screen and (max-width: 650px) {
     .ft {
-      flex-direction: column-reverse; } }
+      flex-direction: column-reverse;
+      height: 114px; } }
+  .ft__title {
+    width: 238px;
+    font-size: 3.2rem;
+    color: #7070704D; }
+    @media screen and (max-width: 650px) {
+      .ft__title {
+        font-size: 1.8rem; } }
   .ft__re {
     font-size: 1.8rem;
-    font-family: Roboto Mono for Powerline;
+    width: 184px;
     color: #707070;
-    padding: 10px 41px 9px 41px;
+    padding: 10px 41px;
     border: 1px solid #707070;
-    letter-spacing: 5px; }
+    text-align: center; }
     @media screen and (max-width: 959px) {
       .ft__re {
-        position: absolute;
-        top: 65%;
-        left: 31%; } }
+        margin: 0 auto; } }
+  .ft .itag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    @media screen and (max-width: 650px) {
+      .ft .itag {
+        justify-content: space-between;
+        width: 100%; } }
 
-.itag {
-  display: flex; }
+.fab {
+  font-size: 2.5rem;
+  margin-left: 9px; }
 
-.fa-twitter {
-  font-size: 1.9rem;
-  margin-top: 2.5px;
-  margin-left: 18px; }
-  @media screen and (max-width: 650px) {
-    .fa-twitter {
-      position: absolute;
-      top: 90%;
-      left: 81%; } }
-
-.fa-facebook-square {
-  font-size: 1.9rem;
-  margin-top: 2.5px;
-  margin-left: 8px; }
-  @media screen and (max-width: 650px) {
-    .fa-facebook-square {
-      position: absolute;
-      top: 90%;
-      left: 88%; } }
+@media screen and (max-width: 650px) {
+  .mark {
+    margin: auto 0;
+    width: 70px; } }
 
 /*# sourceMappingURL=main.css.map */

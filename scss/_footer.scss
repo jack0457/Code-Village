@@ -1,73 +1,70 @@
 footer {
-    position: relative;
-    @include sp {
-        height: 400px;
+    width: 83%;
+    padding: 160px 0 60px;
+    margin: 0 auto;
+    @include tab {
+        padding: 60px 21px 20px;
+        width: 90%;
     }
 }
 
 .line {
-    width: 84%;
+    width: 100%;
+    margin-bottom: 83px;
     border-top: 1px solid #70707036;
-    position: absolute;
-    top: 40%;
-    left: 8%;
+    @include sp {
+        margin-bottom: 60px;
+    }
 }
+
 
 .ft {
     display: flex;
     justify-content: space-between;
-    &__title {
-        font-size: 3.2rem;
-        font-family: Roboto Mono for Powerline;
-        color: #7070704D;
-        letter-spacing: 5px;
-        @include sp {
-            font-size: 1.8rem;
-            position: absolute;
-            top: 90%;
-        }
-    }
+    height: 40px;
     @include sp {
         flex-direction: column-reverse;
+        height: 114px;
+    }
+    &__title {
+        width: 238px;
+        font-size: 3.2rem;
+        color: #7070704D;
+        @include sp {
+            font-size: 1.8rem;
+        }
     }
     &__re {
         font-size: 1.8rem;
-        font-family: Roboto Mono for Powerline;
+        width: 184px;
         color: #707070;
-        padding: 10px 41px 9px 41px;
+        padding: 10px 41px;
         border: 1px solid #707070;
-        letter-spacing: 5px;
+        text-align: center;
         @include tab {
-            position: absolute;
-            top: 65%;
-            left: 31%;
+            margin: 0 auto;
         }
     }
-
-}
-
-.itag {
-    display: flex;
-}
-
-.fa-twitter {
-    font-size: 1.9rem;
-    margin-top: 2.5px;
-    margin-left: 18px;
-    @include sp {
-        position: absolute;
-        top: 90%;
-        left: 81%;
+    .itag {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        @include sp {
+            justify-content: space-between;
+            width: 100%;
+        }
     }
 }
 
-.fa-facebook-square {
-    font-size: 1.9rem;
-    margin-top: 2.5px;
-    margin-left: 8px;
+.fab {
+    font-size: 2.5rem;
+    margin-left: 9px;
+}
+
+
+.mark {
     @include sp {
-        position: absolute;
-        top: 90%;
-        left: 88%;
+        margin: auto 0;
+        width: 70px;
     }
 }

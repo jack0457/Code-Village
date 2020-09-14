@@ -43,6 +43,7 @@
     padding: 0 6%;
     @include tab {
         flex-direction: column;
+        margin: 0 auto;
     }
     &__message {
         font-size: 4.0rem;
@@ -52,8 +53,8 @@
         @include tab {
             font-size: 1.8rem;
             letter-spacing: 5px;
-            margin-bottom: 16px;
-            width: 60%;
+            margin:0 auto 16px;
+            width: 200px;
         }
     }
     &__message2 {
