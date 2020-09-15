@@ -25,7 +25,7 @@
 .wrap {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +40,6 @@
     &__jp {
         font-size: 3.8rem;
         font-family: 游明朝;
-        padding-left: 20px;
         letter-spacing: 1;
         @include tab {
             font-size: 2.3rem;
@@ -48,7 +47,7 @@
     }
     &__eg {
         font-size: 3.8rem;
-        font-size: Zapfino,sans-serif;
+        font-size: Zapfino;
             @include tab {
             font-size: 2.8rem;
         }
